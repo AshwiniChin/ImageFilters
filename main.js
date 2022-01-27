@@ -26,8 +26,9 @@ function editInvert() {
     img = document.getElementById("image1");
     document.getElementById("result").style.filter = "invert()";
     document.getElementById("result").innerHTML = "<img src='" + img.src + "'>";
-   
+    
 }
+
 
 
 
